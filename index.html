@@ -101,7 +101,7 @@
         <input style="font-family: Comic Sans MS ;" placeholder="username" type="text" id="username" name="username" required>
         <label style="font-family: Arial Black ,sans-serif;" for="password">Password:</label>
         <input style="font-family: Comic Sans MS ;" placeholder="password" type="password" id="password" name="password" required>
-        <input onclick="redirectToLoginPage()" style="font-family: Comic Sans MS ;margin-top: 10px" type="submit" value="Login">
+        <a href="#" class="btn" onclick="redirectToKeyloginPage() " >login</a>
         
     </form>
 </div>
@@ -123,8 +123,9 @@
     function redirectToKeyfeaturesPage() {
         window.location.href = "keyfeatureslib.html"; 
     }
-    function redirectToLoginPage() {
-        window.location.href = "aboutuslib.html"; 
+     function redirectToKeyloginPage() {
+        window.location.href = "aboutuslib.html";
+    }
 </script>
 </body>
 </html>
