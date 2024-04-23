@@ -80,7 +80,7 @@
         input[type="submit"]:hover {
             background-color: #003d80;
         }
-        .garib{
+        .function{
             margin-top: -380px;
             margin-right: 400px;
             margin-left: -420px;
@@ -104,10 +104,12 @@
         <input style="font-family: Comic Sans MS ;margin-top: 10px" type="submit" value="Login">
     </form>
 </div>
-<div class="garib" >
+<div class="function" >
     <a href="#" class="btn" onclick="redirectToHomePage()" >Home</a>
     <a href="#" class="btn" onclick="redirectToAboutusPage()">About us</a>
     <a href="#" class="btn" onclick="redirectToKeyfeaturesPage()">Key features</a>
+    <a href="#" class="btn" onclick="redirectToLoginPage()">About us</a>
+    
 </div>
 
 <script>
@@ -118,8 +120,10 @@
         window.location.href = "aboutuslib.html";
     }
     function redirectToKeyfeaturesPage() {
-        window.location.href = "keyfeatureslib.html";
+        window.location.href = "keyfeatureslib.html"; 
     }
+    function redirectToLoginPage() {
+        window.location.href = "aboutuslib.html"; 
 </script>
 </body>
 </html>
