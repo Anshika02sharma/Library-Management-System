@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("https://images.unsplash.com/photo-1564981797816-1043664bf78d?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: top;
+            align-items: center; /* Center vertically */
+            height: 100vh;
+
+        }
+        .container {
+            text-align: top;
+            color: white;
+            width: 100%; /* Adjusted width */
+            max-width: 400px; /* Added max-width to limit width */
+        }
+        h1, h2 {
+            font-size: 100px;
+            margin: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        /* Added style for login box */
+        .container.login-box {
+            background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+            margin-left: 250px;
+            backdrop-filter: blur(20px);
+
+
+        }
+        form {
+            margin-top: 20px; /* Adjust as needed */
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box; /* Include padding and border in width calculation */
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #003d80;
+        }
+        .garib{
+            margin-top: -380px;
+            margin-right: 400px;
+            margin-left: -420px;
+            font-family: "Comic Sans MS" ;
+
+        }
+    </style>
+</head>
+<body>
+<div class="container" style="">
+    <h1 style="margin-bottom: 300px;font-size: 70px;margin-top: -230px;margin-left:450px;margin-right: -1200px;margin-top:px;font-family: Comic Sans MS ;">Welcome to our Library </h1>
+
+</div>
+<div class="container login-box" style="margin-top: 50px"> <!-- Added class "login-box" -->
+    <h2 style="text-align: center;font-family: Arial Black ,sans-serif;font-size: 70px">Login</h2>
+    <form action="your_login_script.php" method="post" onsubmit="redirectTonextPage(); return false;">
+        <label style="font-family: Arial Black ,sans-serif;" for="username">Username:</label>
+        <input style="font-family: Comic Sans MS ;" placeholder="username" type="text" id="username" name="username" required>
+        <label style="font-family: Arial Black ,sans-serif;" for="password">Password:</label>
+        <input style="font-family: Comic Sans MS ;" placeholder="password" type="password" id="password" name="password" required>
+        <input style="font-family: Comic Sans MS ;margin-top: 10px" type="submit" value="Login">
+    </form>
+</div>
+<div class="garib" >
+    <a href="#" class="btn" onclick="redirectToHomePage()" >Home</a>
+    <a href="#" class="btn" onclick="redirectToAboutusPage()">About us</a>
+    <a href="#" class="btn" onclick="redirectToKeyfeaturesPage()">Key features</a>
+</div>
+
+<script>
+    function redirectToHomePage() {
+        window.location.href = "new.html";
+    }
+    function redirectToAboutusPage() {
+        window.location.href = "aboutus.html";
+    }
+    function redirectToKeyfeaturesPage() {
+        window.location.href = "keyfeatures.html";
+    }
+</script>
+</body>
+</html>
