@@ -31,7 +31,7 @@ The **Library Management System** serves as a front-end framework for libraries,
 
 ## Project Structure
 
-```plaintext
+```
 Library-Management-System/
 ├── README.md           # Project documentation
 ├── index.html          # Home page
@@ -39,25 +39,23 @@ Library-Management-System/
 ├── keyfeatureslib.html # Key Features page
 
 ---
----
 
 ## Technologies Used
 - HTML: For structuring the web pages.
 - CSS: For styling and layout.
 
 ---
----
+
 How to Run
 Clone the repository:
 
-bash
-Copy code
+```bash
 git clone https://github.com/Anshika02sharma/Library-Management-System.git
 Navigate to the project directory:
 
-bash
-Copy code
+```bash
 cd Library-Management-System
+
 Open the index.html file in a web browser to view the home page.
 
 ---
