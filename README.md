@@ -39,22 +39,28 @@ Library-Management-System/
 ├── keyfeatureslib.html # Key Features page
 
 ---
+---
 
 ## Technologies Used
 - HTML: For structuring the web pages.
 - CSS: For styling and layout.
 
 ---
+---
+How to Run
+Clone the repository:
 
-## How to Run
-1. Clone the repository:
-
+bash
+Copy code
 git clone https://github.com/Anshika02sharma/Library-Management-System.git
+Navigate to the project directory:
 
-2. Navigate to the project directory:
-
-3. cd Library-Management-System
+bash
+Copy code
+cd Library-Management-System
 Open the index.html file in a web browser to view the home page.
 
-## Contributing
+---
+
+##Contributing
 Contributions are welcome! If you want to enhance the project or add back-end functionality, fork the repository, make your changes, and submit a pull request.
