@@ -11,7 +11,6 @@ This project is a simple **Library Management System** developed using HTML and 
 - [Technologies Used](#technologies-used)
 - [How to Run](#how-to-run)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
